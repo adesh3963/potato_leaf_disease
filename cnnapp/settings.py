@@ -26,7 +26,7 @@ SECRET_KEY = '&^ffa(5e(s#@xkz2gzn8ak&hd)_ngixhx2a%88pth7(-51i+&o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [potato-disease-cnn.herokuapp.com]
+ALLOWED_HOSTS = ['potato-disease-cnn.herokuapp.com']
 
 
 # Application definition
@@ -120,6 +120,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT= os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
